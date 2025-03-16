@@ -45,7 +45,7 @@ const tampilkan = ref(true);
 
 <!-- event listener -->
 <h2>Event LIstener</h2>
-<button @click="alertMessage">Klik Saya</button>
+<button v-on:click="alertMessage">Klik Saya</button>
 
 <hr/>
 
